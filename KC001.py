@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/KC001
+
 t = 3
 
 sum = 0

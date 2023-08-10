@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/FCTRL3/
+
 digits= ["0 1", "0 1", "0 2", 
           "0 6", "2 4", "2 0", 
           "2 0", "4 0", "2 0", 

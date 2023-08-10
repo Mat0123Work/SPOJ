@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/VSR/
+
 t = int(input())
 
 while(t>0):

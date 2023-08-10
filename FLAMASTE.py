@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/FLAMASTE/
+
 def compress(line: str):
     result = ""
     currentLetter = ""

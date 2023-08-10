@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/PA05_POT/
+
 pows = [
     [0], # 0
     [1], # 1

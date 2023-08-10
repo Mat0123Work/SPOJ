@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/RNO_DOD/
+
 t = int(input())
 suma = 0
 

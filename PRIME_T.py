@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/PRIME_T/
+
 def isPrime(n: int):
     if(n==1): return False
     for i in range(2, n//2 + 1):

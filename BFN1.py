@@ -1,3 +1,5 @@
+# https://pl.spoj.com/problems/BFN1/
+
 def czyPalindrom(liczbaStr: str):
     for i in range(len(liczbaStr)//2 + 1):
         if(liczbaStr[i] != liczbaStr[-i-1]): 

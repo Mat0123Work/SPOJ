@@ -1,4 +1,4 @@
-# char* string_merge(char *, char *);
+# https://pl.spoj.com/problems/PP0504B/
 
 
 def concat(a,b):
