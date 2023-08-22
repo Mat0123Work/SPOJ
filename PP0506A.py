@@ -10,11 +10,12 @@ def insertToList(elem, li):
             return
     li.append(newElem)
 
-try:
-    t = int(input())
-
-    while(t>0):
-        n = int(input())
+t = input()
+t = int(t)
+while(t>0):
+    try:
+        n = input()
+        n = int(n)
         result = []
         while(n>0):
             name, x, y = input().split()
@@ -26,7 +27,8 @@ try:
         for i in range(len(result)):
             print(f"{result[i][0]} {result[i][1]} {result[i][2]}")
         t-=1
-except EOFError:
-    pass
+    except ValueError:
+        print()
+
 
 

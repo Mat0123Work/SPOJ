@@ -1,8 +1,5 @@
 # https://pl.spoj.com/problems/GLUTTON/
 
-
-
-
 t = int(input())
 
 while(t>0):

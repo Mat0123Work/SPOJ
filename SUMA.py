@@ -1,6 +1,8 @@
-inpt = input()
 suma = 0
-while(inpt != ""):
-    suma += int(inpt)
-    print(suma)
-    inpt = input()
+while(True):
+    try:
+        inpt = input()
+        suma += int(inpt)
+        print(suma)
+    except EOFError:
+        break
